@@ -1,0 +1,23 @@
+{
+  "name": "consultacep",
+  "version": "1.0.0",
+  "description": "Consulta Ceps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "deasync": "^0.1.19",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "soap": "^0.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

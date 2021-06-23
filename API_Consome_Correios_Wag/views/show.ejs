@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ResultadO consulta</title>
+</head>
+
+<body>
+
+    <h2>Endereço<h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td>Bairro</td>
+                        <td>CEP</td>
+                        <td>Cidade</td>
+                        <td>Complemento</td>
+                        <td>Endereço</td>
+                        <td>UF</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% data.forEach(function(details) { %>
+                    <tr>
+                        <td><%= details.bairro %></td>
+                        <td><%= details.cep %></td>
+                        <td><%= details.cidade %></td>
+                        <td><%= details.complemento2 %></td>
+                        <td><%= details.end %></td>
+                        <td><%= details.uf %></td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+                <button><a href="/">Voltar</a></button>
+</body>
+
+</html>
