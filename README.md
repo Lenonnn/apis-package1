@@ -1,6 +1,6 @@
 # Pacote de APIs
 
-- Essa pacote possui 4 APIs
+- Essa pacote possui 3 APIs
 
 > Essas apis foram criadas a título de estudo focado no aprendizado de JavaScript juntamento com Node.js.
 
